@@ -1,0 +1,19 @@
+<!-- <link rel="stylesheet" href="/css/home.css">
+<h1>
+    <%= title %> 
+</h1> -->
+
+<h1>
+    Sign In
+</h1>
+
+<form action="/users/create-session" method="POST">
+    <div class="input-container"><input type="email" name="email" placeholder="Your Name" required></div>
+    <div class="input-container"><input type="password" name="password" placeholder="password" required></div>    
+    <div  class="input-button"><input type="submit" value="Sign In"></div>    
+</form>
+<p>
+    <a href="/users/auth/google"> 
+    Google Sign In / Sing Up</a> ||
+    <a href="/users/reset-password">Forgot Password?</a>
+</p>

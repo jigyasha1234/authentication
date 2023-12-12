@@ -1,0 +1,27 @@
+body {
+  margin: 0;
+  text-align: center;
+  background-color: #d7f8a5;
+  color: darkgreen;
+}
+a {
+  color: #8e8e1e;
+}
+main {
+  font-size: xx-large;
+
+}
+.input-container{
+    padding: 10px;
+    input{
+        width: 400px;
+        height: 40px;
+        font-size: medium;
+    }
+}
+.input-button{
+    input{
+        width: 150px;
+        height: 39px;
+    }
+}

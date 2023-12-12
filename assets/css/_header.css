@@ -1,0 +1,15 @@
+header {
+  background-color: #153d13;
+  color: #fdfdc4;
+  margin: 0;
+  width: 100%;
+  height: 10%; }
+
+.header-style {
+  display: flex;
+  justify-content: flex-start;
+  padding: 10px; }
+
+.header-items {
+  padding: 14px;
+  font-size: x-large; }
